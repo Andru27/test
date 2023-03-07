@@ -1,0 +1,119 @@
+img {
+  max-width: 100%;
+}
+
+.user-gits .search {
+  margin-top: 100px;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0px 10px 15px 0px rgb(0 0 0 / 11%);
+  padding: 20px;
+  border-radius: 40px;
+}
+
+.user-gits .search input {
+  width: 100%;
+  border: 1px solid #eee;
+  border-radius: 18px;
+  max-width: 300px;
+  display: block;
+  margin: auto;
+  outline: none;
+  padding: 6px 10px;
+}
+
+.col-results,
+.col-sidebar {
+  margin-top: 50px;
+}
+
+.col-results {
+  margin-bottom: 50px;
+}
+
+.user-info .avatar {
+  height: 166px;
+  width: 166px;
+}
+
+.user-info .avatar img {
+  border-radius: 100%;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.username {
+  font-weight: 500;
+  margin-top: 16px;
+}
+
+.username span.login {
+  display: block;
+  font-size: 14px;
+  color: #bbb;
+  font-weight: 400;
+}
+
+.bio {
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 24px;
+}
+
+.results {
+  padding-left: 100px;
+}
+
+.col-inner {
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #eee;
+}
+
+.col-gist:last-child .col-inner {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-bottom: 0;
+}
+
+.results .head {
+  display: flex;
+  align-items: center;
+}
+
+.results .avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.results img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+}
+
+.title {
+  color: #0d6efd;
+}
+
+.created_at {
+  font-size: 13px;
+  color: #bbb;
+}
+
+.file_content {
+  display: none;
+}
+
+.results h2 {
+  text-align: center;
+  font-size: 24px;
+  color: #a1a1a1;
+}
